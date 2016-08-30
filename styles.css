@@ -1,0 +1,388 @@
+ * { 
+  box-sizing: border-box;
+}
+  
+
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #f5deb3;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.menu {
+	margin-top: 0;
+	overflow: hidden;
+}
+
+.block li{
+	display: block;
+	margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: yellow;
+
+}
+
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 15px;
+	margin: 20px
+}
+
+a {
+
+	text-decoration: none;
+}
+
+.profile-image {
+	height: 250px;
+	/*margin-bottom: 35px;*/
+	margin: 10px 10px;
+    background: url('images/travel2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.profile-picture {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	border: 2px green solid;
+	margin-top: 20px;
+}
+
+
+.button {
+  height: 25px;
+  width: 100%;
+  border-radius: 10%;
+  border: 2px solid red;
+  font-size: 0.8em;
+  background: purple;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.blurb {
+	font-weight: bold;
+	margin: 10px;
+
+
+}
+
+.bottom {
+	font-size: 0.8em;
+	float: left;
+	margin-left: 20px; 
+}
+
+.top {
+	font-size: 0.8em;
+	float: right;
+	margin-right: 20px;
+
+}
+
+.top a:hover {
+	color: red;
+}
+
+/****************************
+GALLERY
+*****************************/
+
+
+
+#gallery {
+		max-width: 100%;
+		margin: 10px;
+		padding: 0;
+		list-style: none;
+}
+
+
+
+h2 {
+	font-size: 1em;
+}
+
+.contact {
+		clear: both;
+	
+	}
+
+
+.clearfix {
+  clear: both;
+}
+
+
+/******************************
+FOOTER
+*******************************/
+
+
+.footer {
+ margin-bottom: 0;
+ 
+  
+}
+
+.footer .copyright {
+
+  font-size: .9em;
+  padding-bottom: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  opacity: .7;
+  transition: all .5s;
+}
+
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+.contact {
+  
+  margin-top: 200px;
+
+}
+
+/**************************
+CONTACT
+***************************/
+
+.filler {
+	background: url('images/travel2.jpg') no-repeat;
+    background-size: cover;
+	margin-bottom: -150px;
+}
+
+
+
+/**************************
+MEDIA QUERIES
+***************************/
+
+
+@media screen and (max-width: 767px) {
+
+.bottomfooter {
+  display: none;
+
+}
+
+}
+
+
+
+@media screen and (min-width: 768px){
+	
+
+/**************************
+INDEX
+***************************/
+
+.profile-image {
+	float: right;
+	width: 40%;
+	display: inline-block;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+.blurb {
+	width: 40%;
+	font-weight: bold;
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+	display: inline-block;
+
+}
+
+
+.set {
+   display: inline-block;
+   background-color: #d3d3d3;
+
+}
+
+
+.block li{
+	display: inline-block;
+} 
+
+
+.footer {
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: -40px;
+}
+
+
+.bottomfooter {
+
+	margin-top: 0;
+	background: red;
+}
+
+
+.bottomname {
+  float: left;
+  margin-top: 35px;
+  margin-left: 40px;
+  font-weight: bold;
+
+}
+
+.bottomnav {
+
+	float: right;
+
+}
+
+.bottomnav li{
+
+	float: right;
+	margin-left: 10px;
+	margin-right: 40px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.bottomnav a:hover {
+	color: red;
+}
+
+.pusher {
+	height: 30px;
+}
+
+
+/**************************
+PORTFOLIO
+***************************/
+
+
+#gallery li {
+	float: left;
+	width: 40%;
+	margin: 5%;
+	color: black;
+}
+
+.direction {
+	display: none;
+}
+
+}
+
+
+@media screen and (min-width: 1024px){
+
+/**************************
+INDEX PAGE
+***************************/
+
+
+.set {
+
+	margin-top: 100px;
+}
+
+
+
+.block li{
+	display: inline-block;
+} 
+
+header {
+	float: left;
+	margin-left: 40px;
+}
+
+.menu {
+	float: right;
+}
+
+
+.footer {
+	clear: both;
+}
+
+.direction {
+	display: none;
+}
+
+/**************************
+PORTFOLIO
+***************************/
+
+#gallery li {
+	width:  25%;
+	margin: 3.8%;
+	background-color: #f5f5f5;
+	color: black;	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
